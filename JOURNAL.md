@@ -2,7 +2,7 @@
 ## Background
 Okay third times the charm.
 
-This project is my third attempt at making a cyberdeck, between lots of new inspo and ideas along with not likeing my other builds I decided to make this one. The whole goal of this build is to be robust, modular, and work off grid. For that I'm using a rail system that allows you to swap out different peripherals as you see fit, for now this includes a battery and meshtastic relay. The goal of the meshtastic is to allow you to easily communicate with other people while out of cell range. Additionally the RETAKM will work to control manufacturing systems and view/develop CAD models.
+This project is my third attempt at making a cyberdeck, between lots of new inspo (Mainly [This](https://youtu.be/gIWp_F9PPzI?si=jBwlFPpAz0U6D1uZ) video) and ideas along with not likeing my other builds I decided to make this one. The whole goal of this build is to be robust, modular, and work off grid. For that I'm using a rail system that allows you to swap out different peripherals as you see fit, for now this includes a battery and meshtastic relay. The goal of the meshtastic is to allow you to easily communicate with other people while out of cell range. Additionally the RETAKM will work to control manufacturing systems and view/develop CAD models.
 
 Thanks to my now quite large amount of time making objects like this I was able to get a whole lot done in a day. I started by figuring out the max size I needed the case to be. The largest part I had to fit was 100% the screen, being a 10.5 in display, the same one from my last cyberdeck build. I gave ample space on each side for cable routing and stuff then got to work on the bottom shell now that I knew what size the case had to be.
 ## Work Done
