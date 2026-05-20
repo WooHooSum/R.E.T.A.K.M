@@ -18,3 +18,17 @@ After making the bottom mount I went on to work on the screen mount. The screen 
 - Mount the peripheral rails
 - Figure out the external battery system 
 
+# Day Two 20/05/2026 2 Hours
+
+Okay today had a large pivot in the design idea. Evan looked at the build and realized that a lot of things were not really optimized.
+
+The big problem was the screen, the original design used a portable monitor which was both bulky and expensive, they suggested to switch to a IPS panel to cut down on cost while allowing for a larger screen but smaller footprint. They landed on this screen https://www.aliexpress.us/item/3256801507917524.html
+
+Additionally they realized that the keyboard mount was pretty unoptimized so I'll need to make a actual model of the PCB to make a better mount for it.
+
+Fixing both of those _should_ let us shrink fown the footprint a fairly large amount while giving us a larger screen. The only downside of this being no speakers built in. To fix that at some later point I'll look into making a module that mounts to the back with a speaker in it.
+
+## New Goals:
+- Make Keyboard PCB
+- Fix Screen Mount
+- Add rails
