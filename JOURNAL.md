@@ -20,15 +20,26 @@ After making the bottom mount I went on to work on the screen mount. The screen 
 
 # Day Two 20/05/2026 2 Hours
 
-Okay today had a large pivot in the design idea. Evan looked at the build and realized that a lot of things were not really optimized.
-
-The big problem was the screen, the original design used a portable monitor which was both bulky and expensive, they suggested to switch to a IPS panel to cut down on cost while allowing for a larger screen but smaller footprint. They landed on this screen https://www.aliexpress.us/item/3256801507917524.html
-
-Additionally they realized that the keyboard mount was pretty unoptimized so I'll need to make a actual model of the PCB to make a better mount for it.
-
-Fixing both of those _should_ let us shrink fown the footprint a fairly large amount while giving us a larger screen. The only downside of this being no speakers built in. To fix that at some later point I'll look into making a module that mounts to the back with a speaker in it.
+Okay today had a large pivot in the design idea. Evan looked at the build and realized that a lot of things were not really optimized. The big problem was the screen, the original design used a portable monitor which was both bulky and expensive, they suggested to switch to a IPS panel to cut down on cost while allowing for a larger screen but smaller footprint. They landed on this screen https://www.aliexpress.us/item/3256801507917524.html Additionally they realized that the keyboard mount was pretty unoptimized so I'll need to make a actual model of the PCB to make a better mount for it. Fixing both of those _should_ let us shrink fown the footprint a fairly large amount while giving us a larger screen. The only downside of this being no speakers built in. To fix that at some later point I'll look into making a module that mounts to the back with a speaker in it.
 
 ## New Goals:
 - Make Keyboard PCB
 - Fix Screen Mount
 - Add rails
+
+# Day Three 21/05/2026 Hours 3
+
+Okay today Evan got to work on the screen mount redesign. This meant adding in the new screen and making a mock up off it for the CAD, I also made a mock up of the keyboard PCB so we can make sure the size fits well. Lots off time today was spent trying to figure out how to make sure the screen can both pivot and slide forward and backwards. The design we settled on makes use of a clamping lock for the hinge similar to a bike. 
+<img width="443" height="444" alt="image" src="https://github.com/user-attachments/assets/34601461-4139-4936-9c1b-2279fd8beb7c" />
+<img width="1399" height="839" alt="image" src="https://github.com/user-attachments/assets/16bdcbee-e50c-425d-afd8-7f4912d373bc" />
+This is nice because it's cheap while remaining robust and leaving ample room unlike the original idea of using a ratcheding door hinge.
+
+For the slide we decided to keep things simple and familer and we went with MGN7 rails, they're fairly cost effective and still strong enough for what we needed. Thanks to a miscommunication Evan actually improved the design and made it so that you can have the screen in three different "modes". A tablet mode where the hinge is at the bottom of the rails and only has the screen visable, a laptop mode where you slide the screen up and tilt the hinge slightly to access the keyboard, and a closed mode where the hinge is at the top of the rails and allows you to close the lid with the screen internal.
+<img width="447" height="355" alt="image" src="https://github.com/user-attachments/assets/506389d3-aa11-4e91-afca-e22cd9cd30ab" />
+
+**Screen**
+<img width="1535" height="994" alt="image" src="https://github.com/user-attachments/assets/7c636260-9f74-4584-842f-d7c4fc564df8" />
+
+## Tomorrows goals are:
+- Idk I seem to be really bad at goal setting
+- Make the damn battery
