@@ -30,6 +30,7 @@ Okay today had a large pivot in the design idea. Evan looked at the build and re
 # Day Three 21/05/2026 Hours 3
 
 Okay today Evan got to work on the screen mount redesign. This meant adding in the new screen and making a mock up off it for the CAD, I also made a mock up of the keyboard PCB so we can make sure the size fits well. Lots off time today was spent trying to figure out how to make sure the screen can both pivot and slide forward and backwards. The design we settled on makes use of a clamping lock for the hinge similar to a bike. 
+
 <img width="443" height="444" alt="image" src="https://github.com/user-attachments/assets/34601461-4139-4936-9c1b-2279fd8beb7c" />
 <img width="1399" height="839" alt="image" src="https://github.com/user-attachments/assets/16bdcbee-e50c-425d-afd8-7f4912d373bc" />
 This is nice because it's cheap while remaining robust and leaving ample room unlike the original idea of using a ratcheding door hinge.
