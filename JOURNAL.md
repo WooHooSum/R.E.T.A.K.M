@@ -25,7 +25,7 @@ After making the bottom mount I went on to work on the screen mount. The screen 
 - Mount the peripheral rails
 - Figure out the external battery system 
 
-# Day Two 20/05/2026 2 Hours
+# Day Two 19/05/2026 2 Hours
 
 Okay today had a large pivot in the design idea. Evan looked at the build and realized that a lot of things were not really optimized. The big problem was the screen, the original design used a portable monitor which was both bulky and expensive, they suggested to switch to a IPS panel to cut down on cost while allowing for a larger screen but smaller footprint. They landed on this screen https://www.aliexpress.us/item/3256801507917524.html Additionally they realized that the keyboard mount was pretty unoptimized so I'll need to make a actual model of the PCB to make a better mount for it. Fixing both of those _should_ let us shrink fown the footprint a fairly large amount while giving us a larger screen. The only downside of this being no speakers built in. To fix that at some later point I'll look into making a module that mounts to the back with a speaker in it.
 
@@ -34,7 +34,7 @@ Okay today had a large pivot in the design idea. Evan looked at the build and re
 - Fix Screen Mount
 - Add rails
 
-# Day Three 21/05/2026 Hours 3
+# Day Three 20/05/2026 Hours 3
 
 Okay today Evan got to work on the screen mount redesign. This meant adding in the new screen and making a mock up off it for the CAD, I also made a mock up of the keyboard PCB so we can make sure the size fits well. Lots off time today was spent trying to figure out how to make sure the screen can both pivot and slide forward and backwards. The design we settled on makes use of a clamping lock for the hinge similar to a bike. 
 
@@ -54,3 +54,25 @@ For the slide we decided to keep things simple and familer and we went with MGN7
 ## Tomorrows goals are:
 - Idk I seem to be really bad at goal setting
 - Make the damn battery
+
+# Day 4 21/05/2026 Hours 3
+
+We pivot again.
+
+Realized that the new screen was gonna be a lot more effort than it was worth so I decided to switch back to the old one. Also got the keyboard model placed into the RETAKM model and got some tolerances fixed for it. 
+
+<img width="1606" height="1101" alt="image" src="https://github.com/user-attachments/assets/a1ee5e9d-a5a9-43fd-8126-0840a7246256" />
+
+Next I got all of the mounts figured out for the IO ports. We went with G16x4 ports as they're very durable but still are able to do usb signal for cheap. They also just look cool, my only worry is that they may hit the keyboard power PCB.
+
+<img width="1556" height="936" alt="image" src="https://github.com/user-attachments/assets/ffabd825-d776-49a0-b268-85aae18ddff4" />
+
+Last I found a dope [model](https://www.printables.com/model/424732-ryobi-battery-adapter-usb-powerbank-version) that @donutcat already made that I can modify to work as a battery for the Cyberdeck.
+
+<img width="1482" height="994" alt="image" src="https://github.com/user-attachments/assets/a117da62-5937-4f87-befb-8828a273d760" />
+
+Pretty proud of the amount of work that's been done in such a short amount of time.
+
+## Tommors goals are:
+- Install the slider system
+- Work more on the battery
