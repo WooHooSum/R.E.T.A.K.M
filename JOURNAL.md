@@ -73,6 +73,16 @@ Last I found a dope [model](https://www.printables.com/model/424732-ryobi-batter
 
 Pretty proud of the amount of work that's been done in such a short amount of time.
 
-## Tommors goals are:
+## Tomorrows goals are:
 - Install the slider system
 - Work more on the battery
+
+# Day 5 10/06/2026 Hours 3
+
+I been climbing a few mountains so I took a break.
+
+We once again pivot the design and waste a shit ton of time. I spent a long time trying to implement the slider system with the rails and bike lock but no matter what I did it both seems far to complex and I hated how it looked, thats one other reason why I stopped working on it for a bit. At a complete loss I sent a message to one of my discords and was immediately shown a better hinge design, the microsoft surface. This is leading me to pivot the design to follow a similar hinge made of ripstop fabric. Sadly I have no idea how to make that in CAD so I need to prototype IRL which is a massive time sink. Hopefully I should be able to get things to start working and get parts ordered ASAP.
+
+## Tomorrows goals are:
+- Make fabric mounts
+- Get battery worked on
