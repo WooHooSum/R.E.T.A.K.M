@@ -16,34 +16,32 @@ Next I learned how to import other CAD models so that I could have a Pi referanc
 
 <img width="919" height="667" alt="image" src="https://github.com/user-attachments/assets/bacc327c-d92f-49c7-9267-4d766f89f492" />
 
-After making the bottom mount I went on to work on the screen mount. The screen mount is extremly simple, making use of the VESA on the back of the screen. The hard part is sliding and pivoting the screen off of the bottom to expose the keyboard. To handle that I'm employing the help of my partner Evan who is going to help with CAD a small bit so I can learn more, but a ton with electrical and software related to the build.
+After making the bottom mount I went on to work on the screen mount. The screen mount is extremly simple, making use of the VESA on the back of the screen. The hard part is sliding and pivoting the screen off of the bottom to expose the keyboard.
 
 <img width="1582" height="979" alt="image" src="https://github.com/user-attachments/assets/de3cf999-7bab-4cf1-936f-6adb59141738" />
 
 ## Tomorrows goals are:
-- Have Evan make the slider
+- Make the slider
 - Mount the peripheral rails
 - Figure out the external battery system 
 
 # Day Two 19/05/2026 2 Hours
 
-Okay today had a large pivot in the design idea. Evan looked at the build and realized that a lot of things were not really optimized. The big problem was the screen, the original design used a portable monitor which was both bulky and expensive, they suggested to switch to a IPS panel to cut down on cost while allowing for a larger screen but smaller footprint. They landed on this screen https://www.aliexpress.us/item/3256801507917524.html Additionally they realized that the keyboard mount was pretty unoptimized so I'll need to make a actual model of the PCB to make a better mount for it. Fixing both of those _should_ let us shrink fown the footprint a fairly large amount while giving us a larger screen. The only downside of this being no speakers built in. To fix that at some later point I'll look into making a module that mounts to the back with a speaker in it.
+Today was a huge time waste. I felt like I could do better with the screen and the keyboard so I spent a stupid amount of time doin research on what screen to use and different keyboard options. But after that entire time I found that what I had origanlly chosen was best for all the features I wanted.
 
 ## New Goals:
-- Make Keyboard PCB
-- Fix Screen Mount
-- Add rails
+- Same as yesterday
 
 # Day Three 20/05/2026 Hours 3
 
-Okay today Evan got to work on the screen mount redesign. This meant adding in the new screen and making a mock up off it for the CAD, I also made a mock up of the keyboard PCB so we can make sure the size fits well. Lots off time today was spent trying to figure out how to make sure the screen can both pivot and slide forward and backwards. The design we settled on makes use of a clamping lock for the hinge similar to a bike. 
+Okay I got to work on the screen mount redesign. This meant adding in the new screen and making a mock up off it for the CAD, I also made a mock up of the keyboard PCB so I can make sure the size fits well. Lots off time today was spent trying to figure out how to make sure the screen can both pivot and slide forward and backwards. The design I settled on makes use of a clamping lock for the hinge similar to a bike. 
 
 <img width="443" height="444" alt="image" src="https://github.com/user-attachments/assets/34601461-4139-4936-9c1b-2279fd8beb7c" />
 <img width="1399" height="839" alt="image" src="https://github.com/user-attachments/assets/16bdcbee-e50c-425d-afd8-7f4912d373bc" />
 
 This is nice because it's cheap while remaining robust and leaving ample room unlike the original idea of using a ratcheding door hinge.
 
-For the slide we decided to keep things simple and familer and we went with MGN7 rails, they're fairly cost effective and still strong enough for what we needed. Thanks to a miscommunication Evan actually improved the design and made it so that you can have the screen in three different "modes". A tablet mode where the hinge is at the bottom of the rails and only has the screen visable, a laptop mode where you slide the screen up and tilt the hinge slightly to access the keyboard, and a closed mode where the hinge is at the top of the rails and allows you to close the lid with the screen internal.
+For the slide I decided to keep things simple and familer went with MGN7 rails, they're fairly cost effective and still strong enough for what we needed. Thanks to the way the hinge turned out I actually improved the design and made it so that you can have the screen in three different "modes". A tablet mode where the hinge is at the bottom of the rails and only has the screen visable, a laptop mode where you slide the screen up and tilt the hinge slightly to access the keyboard, and a closed mode where the hinge is at the top of the rails and allows you to close the lid with the screen internal.
 
 <img width="447" height="355" alt="image" src="https://github.com/user-attachments/assets/506389d3-aa11-4e91-afca-e22cd9cd30ab" />
 
@@ -57,13 +55,11 @@ For the slide we decided to keep things simple and familer and we went with MGN7
 
 # Day 4 21/05/2026 Hours 3
 
-We pivot again.
-
-Realized that the new screen was gonna be a lot more effort than it was worth so I decided to switch back to the old one. Also got the keyboard model placed into the RETAKM model and got some tolerances fixed for it. 
+I got the keyboard model placed into the RETAKM model and got some tolerances fixed for it. 
 
 <img width="1606" height="1101" alt="image" src="https://github.com/user-attachments/assets/a1ee5e9d-a5a9-43fd-8126-0840a7246256" />
 
-Next I got all of the mounts figured out for the IO ports. We went with G16x4 ports as they're very durable but still are able to do usb signal for cheap. They also just look cool, my only worry is that they may hit the keyboard power PCB.
+Next I got all of the mounts figured out for the IO ports. I went with G16x4 ports as they're very durable but still are able to do usb signal for cheap. They also just look cool, my only worry is that they may hit the keyboard power PCB.
 
 <img width="1556" height="936" alt="image" src="https://github.com/user-attachments/assets/ffabd825-d776-49a0-b268-85aae18ddff4" />
 
@@ -81,7 +77,7 @@ Pretty proud of the amount of work that's been done in such a short amount of ti
 
 I been climbing a few mountains so I took a break.
 
-We once again pivot the design and waste a shit ton of time. I spent a long time trying to implement the slider system with the rails and bike lock but no matter what I did it both seems far to complex and I hated how it looked, thats one other reason why I stopped working on it for a bit. At a complete loss I sent a message to one of my discords and was immediately shown a better hinge design, the microsoft surface. This is leading me to pivot the design to follow a similar hinge made of ripstop fabric. Sadly I have no idea how to make that in CAD so I need to prototype IRL which is a massive time sink. Hopefully I should be able to get things to start working and get parts ordered ASAP.
+I once again pivot the design and waste a shit ton of time. I spent a long time trying to implement the slider system with the rails and bike lock but no matter what I did it both seems far to complex and I hated how it looked, thats one other reason why I stopped working on it for a bit. At a complete loss I sent a message to one of my discords and was immediately shown a better hinge design, the microsoft surface. This is leading me to pivot the design to follow a similar hinge made of ripstop fabric. Sadly I have no idea how to make that in CAD so I need to prototype IRL which is a massive time sink. Hopefully I should be able to get things to start working and get parts ordered ASAP.
 
 ## Tomorrows goals are:
 - Make fabric mounts
