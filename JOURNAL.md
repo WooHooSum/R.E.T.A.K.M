@@ -86,3 +86,15 @@ We once again pivot the design and waste a shit ton of time. I spent a long time
 ## Tomorrows goals are:
 - Make fabric mounts
 - Get battery worked on
+
+# Day 6 11/06/2026 Hours 4
+
+CAD is done!!
+
+Made the fabric mounts for the hinge, they seem like they'll work but I'm interested to see how it actually goes. Next thing I need to do is make a BOM but then it should be good to get submited. 
+
+The fabric mount is inspired by the microsoft surface. Im also looking into addin a fabric winder inside so that you don't need to have spare fabric on the outside. Additionally I also got the rails added to the sides for atatchments like the battery. Im using picatinny because they're pretty easy to make and have a lot of stuff already made for them.
+
+<img width="1553" height="1014" alt="image" src="https://github.com/user-attachments/assets/671d4bcc-92d6-4703-95a2-f772810cb234" />
+
+The last thing is to make the baterry mount aka just adding the rail mount to the battery but I'm tired so I'ma do that later.
